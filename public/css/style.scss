@@ -1,0 +1,22 @@
+---
+---
+
+@import "variables.scss";
+@import "mixins.scss";
+
+@import "bootstrap/scss/bootstrap";
+
+
+// Global CSS
+@import "global.scss";
+@import "layout.scss";
+
+//Page elements
+@import "header.scss";
+@import "footer.scss";
+@import "navbar.scss";
+@import "green-strip.scss";
+@import "explanation.scss";
+@import "main.scss";
+@import "splash.scss";
+@import "404.scss";

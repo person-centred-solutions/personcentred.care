@@ -1,65 +1,128 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome to Firebase Hosting</title>
+---
+layout: home
+---
 
-    <!-- update the version number as needed -->
-    <script defer src="/__/firebase/7.10.0/firebase-app.js"></script>
-    <!-- include only the Firebase features as you need -->
-    <script defer src="/__/firebase/7.10.0/firebase-auth.js"></script>
-    <script defer src="/__/firebase/7.10.0/firebase-database.js"></script>
-    <script defer src="/__/firebase/7.10.0/firebase-messaging.js"></script>
-    <script defer src="/__/firebase/7.10.0/firebase-storage.js"></script>
-    <!-- initialize the SDK after all desired features are loaded -->
-    <script defer src="/__/firebase/init.js"></script>
-
-    <style media="screen">
-      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
-      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
-      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
-      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
-      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
-      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
-      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
-      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
-      @media (max-width: 600px) {
-        body, #message { margin-top: 0; background: white; box-shadow: none; }
-        body { border-top: 16px solid #ffa100; }
-      }
-    </style>
-  </head>
-  <body>
-    <div id="message">
-      <h2>Welcome</h2>
-      <h1>Firebase Hosting Setup Complete</h1>
-      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
-      <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a>
+<div class="container home">
+  <div class="row my-5 feature-row">
+    <div class="col-3 index-img-col index-img-col-left">
+      <img
+        class="rounded-circle w-100"
+        title="Emily Shanks, Ear Inspection, oil on canvas"
+        alt="Emily Shanks, Ear Inspection, oil on canvas"
+        src="/assets/square-art/emily_shanks_scene_in_a_russian_hospital_the_ear_inspection.jpg"
+      />
     </div>
-    <p id="load">Firebase SDK Loading&hellip;</p>
+    <div class="col-9">
+      <h2>Porady zawsze przy Tobie</h2>
+      <p>
+        Aplikacja powstała, aby rodzice dzieci mogli mieć szczegółowe porady
+        alergologiczne zawsze przy sobie. Dzięki temu podczas zakupów będziecie
+        mogli sprawdzić, czy kupujecie właściwy produkt. W restauracji możecie
+        pokazać poradę kelnerowi i poprosić o sprawdzenie, czy danie nie zawiera
+        opisanych alergenów oraz czy składniki przechodzą dozwoloną obróbkę.
+      </p>
+      <p>
+        System powstaje z inicjatywy lekarzy oraz dyrekcji
+        <a href="https://ameryka.com.pl/"
+          >Wojewódzkiego Szpitala Rehabilitacyjnego dla Dzieci w Ameryce</a
+        >.
+      </p>
+    </div>
+  </div>
 
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-        // // The Firebase SDK is initialized and available here!
-        //
-        // firebase.auth().onAuthStateChanged(user => { });
-        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
-        // firebase.messaging().requestPermission().then(() => { });
-        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
-        //
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+  <div class="row my-5 feature-row">
+    <div class="col-9">
+      <h2>Pobierz aplikację ze sklepu Google Play</h2>
+      <p>
+        Po utworzeniu porady otrzymasz link, który pozwoli na zainstalowanie
+        aplikacji i dodanie porady. Jeśli jednak wolisz, moesz pobrać i
+        zainstalować aplikację już teraz.
+      </p>
+      <div class="" style="max-width: 10rem;">
+        {% include google-play-button.html %}
+      </div>
+    </div>
+    <div class="col-3 index-img-col index-img-col-right">
+      <img
+        class="rounded-circle w-100"
+        title="Szpital w Ameryce latem"
+        alt="Szpital w Ameryce latem"
+        src="/assets/square-art/szpital-ameryka.jpg"
+      />
+    </div>
+  </div>
 
-        try {
-          let app = firebase.app();
-          let features = ['auth', 'database', 'messaging', 'storage'].filter(feature => typeof app[feature] === 'function');
-          document.getElementById('load').innerHTML = `Firebase SDK loaded with ${features.join(', ')}`;
-        } catch (e) {
-          console.error(e);
-          document.getElementById('load').innerHTML = 'Error loading the Firebase SDK, check the console.';
-        }
-      });
-    </script>
-  </body>
-</html>
+  <div class="row my-5 feature-row">
+    <div class="col-3 index-img-col index-img-col-left">
+      <img
+        class="rounded-circle w-100"
+        title="Margeret Enangeline Wilson, La Petite Convalescente"
+        alt="Margeret Enangeline Wilson, La Petite Convalescente"
+        src="/assets/square-art/margaret_evangeline_wilson_la_petite_convalescente.jpg"
+      />
+    </div>
+    <div class="col-9">
+      <h2>Oddział Alergologiczny — wdrożenie</h2>
+      <p>
+        Aplikacja jest aktualnie w fazie wdrażania na oddziale alergologicznym.
+        Oznacza to, że nie we wszystkich przypadkach będzie możliwe wysłanie
+        porady. Podczas wdrażania w aplikacji mogą występować drobne błędy.
+        Będziemy je likwidować na bieżąco. Gorąco prosimy o zgłaszanie
+        wszystkich błędów i problemów na adres email
+        <strong><i>{{ site.links.publicIssueEmail }}</i></strong> z dopiskiem
+        <i>&ldquo;aplikacja&rdquo;</i> w tytule e-maila. Dzięki Wam aplikacja
+        staje się coraz lepsza!
+      </p>
+      <p>
+        <a
+          alt="Wojewódzki Szpital Rehabilitacyjny dla Dzieci w Ameryce"
+          href="{{ site.links.hospital }}"
+        >
+          Odziedź stronę szpitala &raquo;
+        </a>
+      </p>
+    </div>
+  </div>
+
+  <div class="row my-5 feature-row">
+    <div class="col-9">
+      <h2>Wolne oprogramowanie</h2>
+      <p>
+        Ten system powstał <i>pro publico bono</i> i jest
+        <strong>Wolnym oprogramowaniem</strong>. Oznacza to że autor i szpital
+        postanowili udostępnić kod źródłowy programu za darmo. Dzięki temu każdy
+        może zgłosić swoje poprawki, znaleźć błędy lub ulepszyć ten system. Dla
+        ochrony praw publicznych jest on udostępniony na Powszechnej Publicznej
+        licensji GNU w wersji 3.
+      </p>
+
+      <p>
+        <a class="btn btn-secondary" href="/about" role="button">
+          Przeczytaj więcej &raquo;
+        </a>
+      </p>
+    </div>
+    <div class="col-3 index-img-col index-img-col-right">
+      <img
+        class="rounded-circle w-100"
+        title="Unknown 1840, Lady Ada Lovelace, the first programmer"
+        alt="Unknown 1840, Lady Ada Lovelace, the first programmer"
+        src="/assets/square-art/unknown_1840_ada_lovelace_watercolour.jpg"
+      />
+    </div>
+  </div>
+
+  <div class="row">
+    <hr />
+  </div>
+
+  <div class="row my-1">
+    <div class="col-12 text-right">
+      <p>
+        <a class="btn btn-primary" href="/service" role="button">
+          Informacje dla obsługujących system &raquo;
+        </a>
+      </p>
+    </div>
+  </div>
+</div>

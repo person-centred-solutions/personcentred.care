@@ -1,0 +1,54 @@
+.splashBody {
+    height: 100%;
+    background-image: $mainImg;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    a {
+        color: white !important;
+        text-decoration: underline;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
+
+.splash {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    @include media-breakpoint-only(sm) {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    @include media-breakpoint-up(md) {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+
+    margin: 0 auto;
+
+    .splash-inner {
+        background: rgba(0, 0, 0, 0.075);
+        color: white;
+        text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, .5);
+        padding: 2rem;
+
+    }
+}
+
+.splash-footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 2rem;
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 0.75em;
+}

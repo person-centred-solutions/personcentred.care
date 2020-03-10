@@ -1,0 +1,13 @@
+footer {
+    margin-top: 3rem;
+
+    @include media-breakpoint-up(sm) {
+        margin-top: 7rem;
+    }
+
+    .row {
+        border-top: 1px solid #aaa;
+        padding: 2rem;
+        color: #777;
+    }
+}

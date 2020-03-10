@@ -1,0 +1,66 @@
+// Global styling for this template
+
+html {
+    min-height: 100%;
+}
+
+body {
+    @include body-font;
+}
+
+.text-small {
+    font-size: 50%;
+}
+
+.google-play-button a {
+    display: block;
+}
+
+.google-play-button a img {
+    display: block;
+    width: 100%;
+}
+
+/*
+p {
+    line-height: 1.75;
+}
+
+a {
+    @include a-link;
+}
+
+.text-primary {
+    color: $primary !important;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+    font-weight: 700;
+    @include heading-font;
+}
+
+
+// Highlight color customization
+::-moz-selection {
+    background: $primary;
+    text-shadow: none;
+}
+
+::selection {
+    background: $primary;
+    text-shadow: none;
+}
+
+img::selection {
+    background: transparent;
+}
+
+img::-moz-selection {
+    background: transparent;
+}
+*/

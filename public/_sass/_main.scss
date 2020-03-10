@@ -1,0 +1,57 @@
+main {
+    padding-top: 3rem;
+    color: #5a5a5a;
+
+    .service-row {
+        .col-sm-4 {
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+    }
+
+    .marketing h2 {
+        font-weight: 400;
+    }
+
+    .marketing .col-lg-4 p {
+        margin-right: .75rem;
+        margin-left: .75rem;
+    }
+
+    .main-content {
+        h2 {
+            margin-top: 2rem;
+        }
+    }
+
+    hr {
+        width: 100%;
+    }
+}
+
+.home {
+    .google-play-button img {
+        max-width: 10rem;
+
+        @include media-breakpoint-up(lg) {
+            max-width: 15rem;
+        }
+    }
+
+    .feature-row {
+        @include media-breakpoint-up(xs) {
+            padding-top: 2rem;
+            padding-bottom: 3rem;
+        }
+    }
+
+    @include media-breakpoint-down(xs) {
+        .index-img-col-left {
+            padding-right: 0 !important;
+        }
+
+        .index-img-col-right {
+            padding-left: 0 !important;
+        }
+    }
+}
