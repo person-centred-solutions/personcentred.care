@@ -7,6 +7,7 @@ yarn-error.log*
 firebase-debug.log*
 .jekyll-cache
 public/_site
+.DS_Store
 
 # Firebase cache
 .firebase/
