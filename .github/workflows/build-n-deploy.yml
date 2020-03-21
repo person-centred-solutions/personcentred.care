@@ -1,0 +1,34 @@
+name: Build-n-deploy
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@master
+
+      - uses: actions/setup-node@v1
+        with:
+          node-version: "12.x"
+
+      - run: npm --prefix=public ci
+
+      - name: Setup ruby
+        uses: actions/setup-ruby@v1
+        with:
+          ruby-version: "2.6"
+
+      - run: bundle install
+      - run: (cd public && bundle exec jekyll build)
+
+      - name: Deploy to Firebase
+        uses: w9jds/firebase-action@v1.1.0
+        with:
+          args: deploy
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
