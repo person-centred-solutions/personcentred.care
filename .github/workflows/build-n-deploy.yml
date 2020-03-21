@@ -23,6 +23,8 @@ jobs:
         with:
           ruby-version: 2.6
 
+      - run: gem install bundler:2.1.2
+
       - uses: actions/cache@v1
         with:
           path: vendor/bundle
