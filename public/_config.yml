@@ -37,6 +37,11 @@ markdown: CommonMark
 commonmark:
   options: ["SMART", "UNSAFE"]
 
+sass:
+  load_paths:
+    - _sass
+    - node_modules
+
 gems:
   - jekyll-seo-tag
 
