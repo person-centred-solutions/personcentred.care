@@ -1,36 +1,15 @@
-@mixin background-dots($bgColor, $lineColor, $dotColor) {
-  background: radial-gradient($dotColor 3px, transparent 4px),
-    radial-gradient($dotColor 3px, transparent 4px),
-    linear-gradient($bgColor 4px, transparent 0),
-    linear-gradient(
-      45deg,
-      transparent 74px,
-      transparent 75px,
-      $lineColor 75px,
-      $lineColor 76px,
-      transparent 77px,
-      transparent 109px
-    ),
-    linear-gradient(
-      -45deg,
-      transparent 75px,
-      transparent 76px,
-      $lineColor 76px,
-      $lineColor 77px,
-      transparent 78px,
-      transparent 109px
-    ),
-    $bgColor;
-  background-size: 109px 109px, 109px 109px, 100% 6px, 109px 109px, 109px 109px;
-  background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+body,
+html {
+  background-color: #eee;
 }
 
 body {
-  @include background-dots(#eee, #ddd, #ccc);
+  background-color: #eee;
+  @include pattern-dots(#eee, rgb(218, 218, 218), rgb(218, 218, 218));
 }
 
 .splashBody {
-  @include background-dots(#ccc, #bbb, #aaa);
+  @include pattern-dots(#ccc, #bbb, #aaa);
 }
 
 #top-bg {
