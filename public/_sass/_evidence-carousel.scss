@@ -1,7 +1,13 @@
+.evidence-carousel {
+  margin-bottom: 1 * $spacer;
+}
+
 .evidence-carousel-item {
-  background: black;
-  color: white;
+  background: #ccc;
+  color: #777;
   width: 100%;
-  height: 28rem;
+  height: 24rem;
   padding: 1rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
 }
