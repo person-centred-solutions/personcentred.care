@@ -26,6 +26,11 @@ email: jedrzej@lewandowski.doctor
 baseurl: "" # the subpath of your site, e.g. /blog
 lang: en
 
+text:
+  header:
+    suptitle: the empathetic healthcare way
+    title: Person Centred Care
+
 menu:
   - title: Strona główna
     url: /
