@@ -77,6 +77,10 @@ exclude:
   - .jekyll-cache
 
 links:
-  author: https://jedrzej.lewandowski.doctor/
-  license: https://www.gnu.org/licenses/gpl-3.0.html
-  authorEmailSplit: jedrzej [at] lewandowski.doctor
+  authors:
+    roman:
+      website: https://ameryka.academia.edu/RomanLewandowski
+      emailSplit:
+    jedrzej:
+      website: https://jedrzej.lewandowski.doctor/
+      emailSplit: jedrzej [at] lewandowski.doctor
