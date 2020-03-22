@@ -44,3 +44,19 @@ when most of the answers to the following questions are positive than one can co
 11. Is the jointly prepared care and/or treatment and/or rehabilitation plan documented?
 12. Is the current version of this plan always available to the patient?
 13. Are the changes introduced in the patient's life discussed at the next meeting?
+
+The use of PCC in the group of patients with hip fractures reduced the number of days of care by 50 percent and reduced the number of medical complications and the level of pain experienced by patients. The same study showed that the highest improvement was achieved in the oldest patients. In the 91–97 age group, the number of days of care decreased from 46 days to 12 days, compared to the age group 65–70 years in which the number of days of care was reduced from 16 to 14 days <sup>[6]</sup>.
+
+The use of PCC in rheumatoid arthritis patients has proven reduced fatigue, increased muscle strength, greater confidence in their own abilities and better self-assessment of health, as well as reduced the cost of treatment <sup[7]</sup>.
+
+Similarly, the introduction of PCC into the process of cancer treatment and palliative care led to a higher quality of life and greater relief from symptoms compared to the control group <sup>[8][9]</sup>.
+
+Positive effects of PCC implementation were also seen in the psychiatric care for elderly people. Individually tailored PCC interventions for people with dementia in 12 nursing homes reduced the proportion of residents receiving neuroleptics by about 19.1 percent compared with other similar centers <sup>[10]</sup>.
+
+The atmosphere in the nursing home after applying PCC was more friendly than before and the staff were less stressed <sup>[5]</sup>.
+
+In psychiatric care, about 50 percent of patients reported during the study that PCC led to a reduction in anxiety compared with 10 percent among patients treated conventionally. Similar results were achived by implementing PCC into depression treatment <sup>[11]</sup>.
+
+Patients' failure to comply with the recommendations of medical professionals is a crucial issue of modern healthcare, especially in the post-acute treatment period. Coronary artery disease is a clear example of this issue — despite the significant mortality decrease achieved by the invasive medicine, the overall effects are destroyed by the lack of subsequent rehabilitation, mainly because only a small percentage of patients participate in it <sup>[12]</sup>.
+
+Prophylaxis suffers from similar problems of the inability of patients to adhere to the prophylactic advice regarding physical activity, healthy eating, smoking, and maintaining adequate cholesterol levels. Similarly, the application of PCC brings measurable effects in this area <sup>[12][13]</sup>.
