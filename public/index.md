@@ -76,3 +76,9 @@ Prophylaxis suffers from similar problems of the inability of patients to adhere
 11.     Arvidsdotter, Tina, Bertil Marklund, Charles Taft, and Sven Kylén. 2015. Quality of life, sense of coherence and experiences with three different treatments in patients with psychological distress in primary care: a mixed-methods study. BMC Complementary and Alternative Medicine 15: 132. https://doi.org/10.1186/s12906-015-0654-z.
 12.     Thompson, D R, and A M Clark. 2009. Cardiac rehabilitation: into the future. Heart 95: 1897–1900. https://doi.org/10.1136/hrt.2009.173732.
 13.     Clark, Alexander M., Lisa Hartling, Ben Vandermeer, Sue L. Lissel, and Finlay A. McAlister. 2007. Secondary prevention programmes for coronary heart disease: a meta-regression showing the merits of shorter, generalist, primary care-based interventions. European Journal of Cardiovascular Prevention & Rehabilitation 14: 538–546. https://doi.org/10.1097/HJR.0b013e328013f11a.
+
+### Authors
+
+**Roman Lewandowski** — devoted Person centred care and healthcare sciences researcher, chief of the Voivodeship Rehabilitation Hospital for Children in Ameryka, Poland. Roman participates in several european research programmes faciliating the development of PCC care [://www.researchgate.net/profile/Roman_Lewandowski2](https://www.researchgate.net/profile/Roman_Lewandowski2)
+
+**Jędrzej Lewandowski** — software architect and medical student: [://jedrzej.lewandowski.doctor](https://jedrzej.lewandowski.doctor)
