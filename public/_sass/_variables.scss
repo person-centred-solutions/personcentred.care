@@ -14,6 +14,26 @@ $black: #000 !default;*/
 
 $mainImg: url(/assets/photo/linarium-gauss.jpg);
 
+/*$font-family-base: "Lora", serif;
+$headings-font-family: "Montserrat", sans-serif;*/
+
+$font-family-serif: "Lora", serif;
+$font-family-sans-serif: "Montserrat", sans-serif;
+$font-family-base: $font-family-serif;
+$headings-font-family: $font-family-sans-serif;
+$line-height-base: 2;
+$line-height-lg: 2;
+$line-height-sm: 2;
+$headings-line-height: 1.2;
+$font-size-base: 1.1rem;
+$heading-font-size-scale-factor: 1.25;
+$h1-font-size: $font-size-base * pow($heading-font-size-scale-factor, 5);
+$h2-font-size: $font-size-base * pow($heading-font-size-scale-factor, 4);
+$h3-font-size: $font-size-base * pow($heading-font-size-scale-factor, 3);
+$h4-font-size: $font-size-base * pow($heading-font-size-scale-factor, 2);
+$h5-font-size: $font-size-base * pow($heading-font-size-scale-factor, 1);
+$h6-font-size: $font-size-base !default;
+
 $primary: #00885b;
 $primaryLighter: #4bb988;
 $primaryDarker: #005a31;

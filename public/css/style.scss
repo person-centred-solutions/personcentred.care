@@ -1,11 +1,14 @@
 ---
 ---
 
+@import "math.scss";
 @import "variables.scss";
 @import "mixins.scss";
 @import "patterns.scss";
 
 @import "bootstrap/scss/bootstrap";
+
+@import "typography.scss";
 
 // Global CSS
 @import "global.scss";

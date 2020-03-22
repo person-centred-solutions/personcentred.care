@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<a name="characteristics">Person-Centred Care (PCC)</a> means a step forward from well-established approach called Patient-Centred Care. The Picker Institute, identified eight characteristics of care as the most important indicators of Patient-Centred Care<sup>[1]</sup>:
+<a name="characteristics">Person-Centred Care (PCC)</a> means a step forward from well-established approach called Patient-Centred Care. The Picker Institute, identified eight characteristics of care as the most important indicators of Patient-Centred Care<sup data-toggle="tooltip" title="Barry, Michael J., and Susan Edgman-Levitan. 2012. Shared Decision Making — The Pinnacle of Patient-Centered Care. New England Journal of Medicine 366: 780–781. https://doi.org/10.1056/NEJMp1109283.">[1]</sup>:
 
 1. respect for the patient’s values, preferences, and expressed needs;
 2. coordinated and integrated care;
@@ -17,7 +17,7 @@ layout: default
 
 ![PCC animation](/assets/PCC_animation_720.gif)
 
-### <a name="model">Model</a>
+## <a name="model">Model</a>
 
 In Person-Centred Care in the centre are “patient’s goals, capabilities and expectations” and the patient is an equal partner together health care professionals in the decision-making process concerning their care. This idea does not imply that patients and professionals take on the same roles and responsibilities as in a negotiation between equals. The fundamental equality and asymmetry between patient and professional implies that their relationship cannot be a matter of a one-way exercise of power, but neither a symmetrical exchange of information. Establishing a partnership requires an active involvement from both parties, but from different starting points and with different prerequisites. The professional is an expert in medicine, rehabilitation, care etc. and the patient is an expert on their own life, fillings and desires. Person-centred care (PCC) addresses the importance of knowing the person behind the patient.
 There are many centres in Europe and the US where PCC is developed. One of the most prominent is the University of Gothenburg Centre for Person-Centred Care (GPCC) (https://gpcc.gu.se/english). The GPCC model consists of three essential ‘routines’ to initiate, integrate and safeguard person-centred care in daily clinical practice [3]:
@@ -29,7 +29,7 @@ There are many centres in Europe and the US where PCC is developed. One of the m
    • clinical tasks to be undertaken by the professionals and
    • everyday goals undertaken by the patient/relatives.
 
-### <a name="checklist">Questions identifying a person-centred care</a>
+## <a name="checklist">Questions identifying a person-centred care</a>
 
 when most of the answers to the following questions are positive than one can consider that delivered care is consistent with person-centred care approach <sup>[2][3][4][5]</sup>:
 
@@ -47,11 +47,11 @@ when most of the answers to the following questions are positive than one can co
 12. Is the current version of this plan always available to the patient?
 13. Are the changes introduced in the patient's life discussed at the next meeting?
 
-### <a name="evidence">Evidence</a>
+## <a name="evidence">Evidence</a>
 
 The use of PCC in the group of patients with hip fractures reduced the number of days of care by 50 percent and reduced the number of medical complications and the level of pain experienced by patients. The same study showed that the highest improvement was achieved in the oldest patients. In the 91–97 age group, the number of days of care decreased from 46 days to 12 days, compared to the age group 65–70 years in which the number of days of care was reduced from 16 to 14 days <sup>[6]</sup>.
 
-The use of PCC in rheumatoid arthritis patients has proven reduced fatigue, increased muscle strength, greater confidence in their own abilities and better self-assessment of health, as well as reduced the cost of treatment <sup[7]</sup>.
+The use of PCC in rheumatoid arthritis patients has proven reduced fatigue, increased muscle strength, greater confidence in their own abilities and better self-assessment of health, as well as reduced the cost of treatment <sup>[7]</sup>.
 
 Similarly, the introduction of PCC into the process of cancer treatment and palliative care led to a higher quality of life and greater relief from symptoms compared to the control group <sup>[8][9]</sup>.
 
@@ -65,7 +65,7 @@ Patients' failure to comply with the recommendations of medical professionals is
 
 Prophylaxis suffers from similar problems of the inability of patients to adhere to the prophylactic advice regarding physical activity, healthy eating, smoking, and maintaining adequate cholesterol levels. Similarly, the application of PCC brings measurable effects in this area <sup>[12][13]</sup>.
 
-### <a name="bibliography">Bibliography</a>
+## <a name="bibliography">Bibliography</a>
 
 1.  Barry, Michael J., and Susan Edgman-Levitan. 2012. Shared Decision Making — The Pinnacle of Patient-Centered Care. New England Journal of Medicine 366: 780–781. https://doi.org/10.1056/NEJMp1109283.
 2.  Ekman, Inger, Karl Swedberg, Charles Taft, Anders Lindseth, Astrid Norberg, Eva Brink, Jane Carlsson, et al. 2011. Person-Centered Care — Ready for Prime Time. European Journal of Cardiovascular Nursing 10: 248–251. https://doi.org/10.1016/j.ejcnurse.2011.06.008.
@@ -81,7 +81,7 @@ Prophylaxis suffers from similar problems of the inability of patients to adhere
 12. Thompson, D R, and A M Clark. 2009. Cardiac rehabilitation: into the future. Heart 95: 1897–1900. https://doi.org/10.1136/hrt.2009.173732.
 13. Clark, Alexander M., Lisa Hartling, Ben Vandermeer, Sue L. Lissel, and Finlay A. McAlister. 2007. Secondary prevention programmes for coronary heart disease: a meta-regression showing the merits of shorter, generalist, primary care-based interventions. European Journal of Cardiovascular Prevention & Rehabilitation 14: 538–546. https://doi.org/10.1097/HJR.0b013e328013f11a.
 
-### <a name="authors">Authors</a>
+## <a name="authors">Authors</a>
 
 **Roman Lewandowski** — researcher focused on healthcare sciences, devoted to PCC research; chief of the Voivodeship Rehabilitation Hospital for Children in Ameryka, Poland. Roman participates in several european research programmes faciliating the development of PCC care [://www.researchgate.net/profile/Roman_Lewandowski2](https://www.researchgate.net/profile/Roman_Lewandowski2)
 

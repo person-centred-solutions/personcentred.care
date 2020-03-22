@@ -4,8 +4,11 @@ html {
 }
 
 body {
-  background-color: #eee;
-  @include pattern-dots(#eee, rgb(218, 218, 218), rgb(218, 218, 218));
+  $bg-color: rgb(250, 250, 255);
+  $dots-color: rgb(240, 240, 245);
+  $lines-color: $dots-color;
+  background-color: $bg-color;
+  //@include pattern-dots($bg-color, $dots-color, $lines-color);
 }
 
 .splashBody {
