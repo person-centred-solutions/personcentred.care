@@ -1,10 +1,16 @@
 .section-front-matter {
-  padding-top: 5rem;
-  padding-bottom: 12rem;
+  $header-right-padding: 4rem;
+
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  @include media-breakpoint-up(sm) {
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+  }
 
   header {
     text-align: right;
-    padding-right: 4rem;
+    padding-right: $header-right-padding;
 
     h2 {
       font-size: 1rem;
@@ -20,6 +26,11 @@
 
   nav {
     border-left: 1px solid #ddd;
+
+    @include media-breakpoint-only(xs) {
+      text-align: right;
+      padding-right: $header-right-padding;
+    }
 
     ul {
       margin-left: 0;

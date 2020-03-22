@@ -32,8 +32,8 @@ text:
     title: Person Centred Care
 
 navbar:
-  - title: Characteristics
-    url: "#characteristics"
+  - title: Introduction
+    url: "#introduction"
   - title: Model
     url: "#model"
   - title: Checklist
