@@ -1,0 +1,35 @@
+.section-front-matter {
+  padding-top: 5rem;
+  padding-bottom: 12rem;
+
+  header {
+    text-align: right;
+    padding-right: 4rem;
+
+    h2 {
+      font-size: 1rem;
+      margin-bottom: 0;
+      margin-left: 0.25rem;
+      color: #555;
+    }
+
+    h1 {
+      margin-top: 0;
+    }
+  }
+
+  nav {
+    border-left: 1px solid #ddd;
+
+    ul {
+      margin-left: 0;
+      padding-left: 0;
+    }
+
+    ul li {
+      list-style-type: none;
+      margin-left: 0;
+      padding-left: 0;
+    }
+  }
+}
