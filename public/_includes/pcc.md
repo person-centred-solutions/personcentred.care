@@ -1,7 +1,3 @@
----
-layout: default
----
-
 <a name="characteristics">Person-Centred Care (PCC)</a> means a step forward from well-established approach called Patient-Centred Care. The Picker Institute, identified eight characteristics of care as the most important indicators of Patient-Centred Care<sup data-toggle="tooltip" title="Barry, Michael J., and Susan Edgman-Levitan. 2012. Shared Decision Making — The Pinnacle of Patient-Centered Care. New England Journal of Medicine 366: 780–781. https://doi.org/10.1056/NEJMp1109283.">[1]</sup>:
 
 1. respect for the patient’s values, preferences, and expressed needs;
