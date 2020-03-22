@@ -31,11 +31,19 @@ text:
     suptitle: the empathetic healthcare way
     title: Person Centred Care
 
-menu:
-  - title: Strona główna
-    url: /
-  - title: Porządek nabożeństw
-    url: /porzadek-nabozenstw/
+navbar:
+  - title: Characteristics
+    url: "#characteristics"
+  - title: Model
+    url: "#model"
+  - title: Checklist
+    url: "#checklist"
+  - title: Evidence
+    url: "#evidence"
+  - title: Bibliography
+    url: "#bibliography"
+  - title: Authors
+    url: "#authors"
 
 # Build settings
 markdown: CommonMark

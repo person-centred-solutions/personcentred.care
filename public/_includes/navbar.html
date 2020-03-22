@@ -1,29 +1,31 @@
 <nav class="navbar navbar-expand-md navbar-dark color-black">
-    <a class="navbar-brand" href="/">
-        <img src="/assets/logo-ameryka-white.svg" class="navbar-ameryka-logo" alt="{{ site.text.navbar.title }}"
-            title="{{ site.text.navbar.title }}" />
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
+  <a class="navbar-brand" href="/">
+    <img
+      src="/assets/logo-ameryka-white.svg"
+      class="navbar-ameryka-logo"
+      alt="{{ site.text.navbar.title }}"
+      title="{{ site.text.navbar.title }}"
+    />
+  </a>
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-toggle="collapse"
+    data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent"
+    aria-expanded="false"
+    aria-label="Toggle navigation"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="/">Informacje</a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="/service">Dla profesjonalistów</a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="/about">O aplikacji</a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="{{ site.links.hospital }}">
-                    Szpital <sup><i style="font-size: 0.5rem;" class="fas fa-external-link-alt"></i></sup>
-                </a>
-            </li>
-        </ul>
-    </div>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      {% for item in site.navbar %}
+      <li class="nav-item active">
+        <a class="nav-link" href="{{ item.url }}">{{ item.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
 </nav>

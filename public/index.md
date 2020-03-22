@@ -79,6 +79,6 @@ Prophylaxis suffers from similar problems of the inability of patients to adhere
 
 ### Authors
 
-**Roman Lewandowski** — devoted Person centred care and healthcare sciences researcher, chief of the Voivodeship Rehabilitation Hospital for Children in Ameryka, Poland. Roman participates in several european research programmes faciliating the development of PCC care [://www.researchgate.net/profile/Roman_Lewandowski2](https://www.researchgate.net/profile/Roman_Lewandowski2)
+**Roman Lewandowski** — researcher focused on healthcare sciences, devoted to PCC research; chief of the Voivodeship Rehabilitation Hospital for Children in Ameryka, Poland. Roman participates in several european research programmes faciliating the development of PCC care [://www.researchgate.net/profile/Roman_Lewandowski2](https://www.researchgate.net/profile/Roman_Lewandowski2)
 
 **Jędrzej Lewandowski** — software architect and medical student: [://jedrzej.lewandowski.doctor](https://jedrzej.lewandowski.doctor)

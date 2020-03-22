@@ -32,3 +32,7 @@ body {
 .splashBody {
   @include background-dots(#ccc, #bbb, #aaa);
 }
+
+#top-bg {
+  background-color: #303c6c;
+}
