@@ -1,24 +1,15 @@
 // Global styling for this template
 
 html {
-    min-height: 100%;
+  min-height: 100%;
 }
 
 body {
-    @include body-font;
+  @include body-font;
 }
 
 .text-small {
-    font-size: 50%;
-}
-
-.google-play-button a {
-    display: block;
-}
-
-.google-play-button a img {
-    display: block;
-    width: 100%;
+  font-size: 50%;
 }
 
 /*
