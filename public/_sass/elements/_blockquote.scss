@@ -1,0 +1,26 @@
+blockquote {
+  background: #ededed;
+  border-left: 8px solid $primary;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.15);
+  color: #666;
+  font-style: italic;
+  padding: 1.2em 1em 1.2em 1.2em;
+  position: relative;
+  vertical-align: super;
+  z-index: 0;
+  overflow: hidden;
+}
+
+blockquote span {
+  float: right;
+}
+
+blockquote::before {
+  color: #ccc;
+  content: "\201C";
+  font-size: 5em;
+  right: 1.5rem;
+  position: absolute;
+  line-height: 1;
+  top: 0;
+}

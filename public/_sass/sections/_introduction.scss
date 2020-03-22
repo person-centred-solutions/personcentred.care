@@ -1,0 +1,17 @@
+.section-introduction {
+  padding-bottom: 4rem;
+
+  img.pcc-animation {
+    max-width: 16rem;
+    @include media-breakpoint-only(xs) {
+      max-width: 60%;
+    }
+
+    float: right;
+  }
+
+  blockquote {
+    margin: 2rem;
+    margin-bottom: 5rem;
+  }
+}
