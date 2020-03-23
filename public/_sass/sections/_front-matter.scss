@@ -5,11 +5,11 @@
   padding-bottom: 4rem;
   @include media-breakpoint-up(sm) {
     padding-top: 8rem;
-    padding-bottom: 10rem;
+    padding-bottom: 8rem;
   }
 
   @include media-breakpoint-up(lg) {
-    padding-bottom: 14rem;
+    padding-bottom: 10rem;
   }
 
   header {
