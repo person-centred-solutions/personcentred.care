@@ -16,6 +16,13 @@ p img {
   max-width: 100%;
 }
 
+.svg-content-img {
+  width: 100%;
+  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.12);
+  margin-top: $spacer;
+  margin-bottom: $spacer;
+}
+
 /*
 p {
     line-height: 1.75;
