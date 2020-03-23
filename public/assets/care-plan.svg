@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 800 250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="Care-plan-group" serif:id="Care plan group" transform="matrix(1,0,0,1,6.03526,-9.06569)">
+        <g transform="matrix(-8.07138e-17,-0.19334,0.398039,-1.76482e-16,223.962,227.675)">
+            <path d="M222.148,505.08L222.148,493.073L359.114,493.073L359.114,469.059L420.913,499.076L359.114,529.094L359.114,505.08L222.148,505.08Z" style="fill-opacity:0.4;"/>
+        </g>
+        <g transform="matrix(-5.81714e-17,-0.134461,0.398039,-1.69146e-16,474.68,201.892)">
+            <path d="M222.148,505.08L222.148,493.073L332.052,493.073L332.052,469.059L420.913,499.076L332.052,529.094L332.052,505.08L222.148,505.08Z" style="fill-opacity:0.4;"/>
+        </g>
+        <g transform="matrix(1,0,0,1,0,-4)">
+            <g transform="matrix(1,0,0,1,173.803,-45.1758)">
+                <rect x="154.49" y="81.17" width="431.102" height="58.488" style="fill:rgb(0,136,91);"/>
+            </g>
+            <g transform="matrix(1,0,0,1,288.608,-115.57)">
+                <text x="168.036px" y="191.309px" style="font-family:'Lora-Regular', 'Lora';font-size:30px;fill:white;">Car<tspan x="217.266px " y="191.309px ">e</tspan> plan</text>
+            </g>
+        </g>
+        <g transform="matrix(0.422915,0,0,0.704416,262.957,39.3052)">
+            <rect x="154.49" y="81.17" width="431.102" height="58.488" style="fill:white;"/>
+            <path d="M585.592,81.17L154.49,81.17L154.49,139.659L585.592,139.659L585.592,81.17ZM159.219,84.01L159.219,136.819L580.863,136.819L580.863,84.01L159.219,84.01Z" style="fill:rgb(0,136,91);"/>
+        </g>
+        <g transform="matrix(0.430506,0,0,0.704416,507.295,39.3052)">
+            <rect x="154.49" y="81.17" width="431.102" height="58.488" style="fill:white;"/>
+            <path d="M585.592,81.17L154.49,81.17L154.49,139.659L585.592,139.659L585.592,81.17ZM159.135,84.01L159.135,136.819L580.946,136.819L580.946,84.01L159.135,84.01Z" style="fill:rgb(0,136,91);"/>
+        </g>
+        <g transform="matrix(1,0,0,1,141.654,-104.534)">
+            <text x="222.971px" y="228.268px" style="font-family:'Lora-Regular', 'Lora';font-size:18px;">Clinical tasks</text>
+        </g>
+        <g transform="matrix(1,0,0,1,3.95655,-108.899)">
+            <text x="328.307px" y="317.749px" style="font-family:'Lora-Regular', 'Lora';font-size:18px;">M<tspan x="344.705px " y="317.749px ">e</tspan>dic<tspan x="379.733px " y="317.749px ">a</tspan>l pr<tspan x="417.065px 427.505px 433.499px " y="317.749px 317.749px 317.749px ">ofe</tspan>ssionals</text>
+        </g>
+        <g transform="matrix(1,0,0,1,297.85,-161.801)">
+            <text x="341.768px" y="354.514px" style="font-family:'Lora-Regular', 'Lora';font-size:18px;">P<tspan x="352.55px 361.712px " y="354.514px 354.514px ">at</tspan>ien<tspan x="394.256px " y="354.514px ">t</tspan>s</text>
+            <text x="370.892px" y="372.514px" style="font-family:'Lora-Regular', 'Lora';font-size:18px;">+</text>
+            <text x="317.819px" y="390.514px" style="font-family:'Lora-Regular', 'Lora';font-size:18px;">their r<tspan x="370.577px " y="390.514px ">e</tspan>la<tspan x="394.391px " y="390.514px ">t</tspan>ives</text>
+        </g>
+        <g transform="matrix(1,0,0,1,604.355,121.439)">
+            <text x="0px" y="0px" style="font-family:'Lora-Regular', 'Lora';font-size:18px;">E<tspan x="11.034px " y="0px ">v</tspan>er<tspan x="37.89px 47.214px 57.978px 67.086px " y="0px 0px 0px 0px ">yday</tspan> goals</text>
+        </g>
+    </g>
+    <g id="Key-routines-group" serif:id="Key routines group" transform="matrix(1,0,0,1,-21.3066,-225.355)">
+        <g transform="matrix(1,0,0,1,21.7481,71.2697)">
+            <text x="32.808px" y="203.664px" style="font-family:'Lora-Regular', 'Lora';font-size:30px;fill:rgb(210,7,56);">3 k<tspan x="73.308px 89.418px " y="203.664px 203.664px ">ey</tspan> r<tspan x="125.928px " y="203.664px ">o</tspan>utines</text>
+        </g>
+        <g transform="matrix(1,0,0,1,55.5729,27.7071)">
+            <text x="27.471px" y="281.46px" style="font-family:'Lora-Regular', 'Lora';font-size:18px;fill:rgb(210,7,56);">P<tspan x="38.253px 47.415px " y="281.46px 281.46px ">at</tspan>ien<tspan x="79.959px " y="281.46px ">t</tspan> narr<tspan x="127.335px 136.497px " y="281.46px 281.46px ">at</tspan>ive</text>
+        </g>
+        <g transform="matrix(1,0,0,1,76.3269,54.6812)">
+            <text x="27.471px" y="281.46px" style="font-family:'Lora-Regular', 'Lora';font-size:18px;fill:rgb(210,7,56);">P<tspan x="38.253px 47.541px 55.461px " y="281.46px 281.46px 281.46px ">art</tspan>nership</text>
+        </g>
+        <g transform="matrix(1,0,0,1,60.1539,85.4712)">
+            <text x="27.471px" y="281.46px" style="font-family:'Lora-Regular', 'Lora';font-size:18px;fill:rgb(210,7,56);">Documen<tspan x="108.345px 115.311px 124.473px " y="281.46px 281.46px 281.46px ">tat</tspan>ion</text>
+        </g>
+    </g>
+    <g transform="matrix(0.215186,0,0,1.04804,202.084,-437.902)">
+        <path d="M222.148,509.583L222.148,488.57L274.714,488.57L274.714,469.059L420.913,499.076L274.714,529.094L274.714,509.583L222.148,509.583Z" style="fill-opacity:0.4;"/>
+    </g>
+</svg>
