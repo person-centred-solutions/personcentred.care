@@ -1,13 +1,56 @@
-.evidence-carousel {
-  margin-bottom: 1 * $spacer;
-}
+.section-evidence {
+  .evidence-uptitle {
+    font-weight: bold;
+    font-family: $font-family-sans-serif;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.25);
+  }
 
-.evidence-carousel-item {
-  background: #ccc;
-  color: #777;
-  width: 100%;
-  height: 24rem;
-  padding: 1rem;
-  padding-left: 6rem;
-  padding-right: 6rem;
+  .evidence-carousel {
+    margin-bottom: 1 * $spacer;
+  }
+
+  .carousel-item {
+    width: 100%;
+    background: #ccc;
+    color: #555;
+
+    @include media-breakpoint-only(xs) {
+      font-size: 80%;
+      line-height: 1.75;
+    }
+
+    @include media-breakpoint-only(sm) {
+      line-height: 1.75;
+    }
+
+    height: 30rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+
+    @include media-breakpoint-up(sm) {
+      height: 32rem;
+      padding-left: 5rem;
+      padding-right: 5rem;
+    }
+
+    @include media-breakpoint-up(md) {
+      height: 30rem;
+      padding-left: 10rem;
+      padding-right: 10rem;
+    }
+
+    /*@include media-breakpoint-up(md) {
+      height: 24rem;
+      padding-left: 10rem;
+      padding-right: 10rem;
+    }*/
+  }
+
+  .carousel-item-inner {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    max-width: $layout-width;
+    margin: 0 auto;
+  }
 }
