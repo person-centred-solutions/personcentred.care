@@ -1,0 +1,38 @@
+.section-authors {
+  .media {
+    margin-top: $spacer * 2;
+
+    @include media-breakpoint-only(xs) {
+      margin-left: -2rem;
+    }
+  }
+
+  img {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    margin-right: 2rem;
+
+    @include media-breakpoint-only(xs) {
+      width: 5rem;
+      height: 5rem;
+      margin-right: 1rem;
+    }
+  }
+
+  ul {
+    margin-left: -2.5rem;
+    margin-top: $spacer;
+    margin-bottom: $spacer;
+  }
+
+  ul i {
+    min-width: 2rem;
+  }
+
+  ul li {
+    word-break: break-all;
+    margin-left: 0;
+    padding-left: 0;
+  }
+}
