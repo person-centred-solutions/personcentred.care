@@ -6,20 +6,49 @@
     patients. In the 91–97 age group, the number of days of care decreased from 46 days to 12 days,
     compared to the age group 65–70 years in which the number of days of care was reduced from
     16 to 14 days
-  bibliography: 6
+  bibliography:
+    - |
+      Olsson, Lars-Eric, Elisabeth Hansson, Inger Ekman, and Jón Karlsson.
+      2009. A cost-effectiveness study of a patient-centred integrated care
+      pathway. Journal of Advanced Nursing 65: 1626–1635.
+      <a href="https://doi.org/10.1111/j.1365-2648.2009.05017.x">
+      doi.org/10.1111/j.1365-2648.2009.05017.x</a>.
 
 - title: Rheumatoid arthritis
   caption: |
     The use of PCC in rheumatoid arthritis patients has proven reduced fatigue, increased
     muscle strength, greater confidence in their own abilities and better self-assessment of health,
     as well as reduced the cost of treatment
-  bibliography: 7
+  bibliography:
+    - |
+      Feldthusen, C, A Grimby-Ekman, H Forsblad-d’Elia, L Jacobsson, and K
+      Mannerkorpi. 2016. Explanatory factors and predictors of fatigue in
+      persons with rheumatoid arthritis: A longitudinal study. Journal of
+      Rehabilitation Medicine 48: 469–476.
+      <a href="https://doi.org/10.2340/16501977-2090"
+        >doi.org/10.2340/16501977-2090</a
+      >.
 
 - title: Palliative care
   caption: |
     Similarly, the introduction of PCC into the process of cancer treatment and palliative care led
     to a higher quality of life and greater relief from symptoms compared to the control group
-  bibliography: 8, 9
+  bibliography:
+    - |
+      Brännström, Margareta, and Kurt Boman. 2014. Effects of person-centred
+      and integrated chronic heart failure and palliative home care. PREFER:
+      a randomized controlled study: PREFER: a randomized controlled study.
+      European Journal of Heart Failure 16: 1142–1151.
+      <a href="https://doi.org/10.1002/ejhf.151">doi.org/10.1002/ejhf.151</a
+      >.
+    - |
+      Koinberg, Ingalill, Elisabeth Hansson Olofsson, Eric Carlström, and
+      Lars-Eric Olsson. 2018. Impact of a person-centered intervention for
+      patients with head and neck cancer: a qualitative exploration. BMC
+      Nursing 17: 48.
+      <a href="https://doi.org/10.1186/s12912-018-0319-6"
+        >doi.org/10.1186/s12912-018-0319-6</a
+      >.
 
 - title: Dementia
   caption: |
@@ -27,20 +56,46 @@
     people. Individually tailored PCC interventions for people with dementia in 12 nursing homes
     reduced the proportion of residents receiving neuroleptics by about 19.1 percent compared with
     other similar centers
-  bibliography: 10
+  bibliography:
+    - |
+      Fossey, Jane, Clive Ballard, Edmund Juszczak, Ian James, Nicola Alder,
+      Robin Jacoby, and Robert Howard. 2006. Effect of enhanced psychosocial
+      care on antipsychotic use in nursing home residents with severe
+      dementia: cluster randomised trial. BMJ 332: 756–761.
+      <a href="https://doi.org/10.1136/bmj.38782.575868.7C"
+        >doi.org/10.1136/bmj.38782.575868.7C</a
+      >.
 
 - title: Nursing home
   caption: |
     The atmosphere in the nursing home after applying PCC was more friendly than before and the
     staff were less stressed
-  bibliography: 5
+  bibliography:
+    - |
+      Edvardsson, David, P. O. Sandman, and Lena Borell. 2014. Implementing
+      national guidelines for person-centered care of people with dementia
+      in residential aged care: effects on perceived person-centeredness,
+      staff strain, and stress of conscience. International Psychogeriatrics
+      26: 1171–1179.
+      <a href="https://doi.org/10.1017/S1041610214000258"
+        >doi.org/10.1017/S1041610214000258</a
+      >.
 
 - title: Psychiatric care
   caption: |
     Psychiatric care In psychiatric care, about 50 percent of patients reported during the study
     that PCC led to a reduction in anxiety compared with 10 percent among patients treated
     conventionally. Similar results were achived by implementing PCC into depression treatment
-  bibliography: 11
+  bibliography:
+    - |
+      Arvidsdotter, Tina, Bertil Marklund, Charles Taft, and Sven Kylén.
+      2015. Quality of life, sense of coherence and experiences with three
+      different treatments in patients with psychological distress in
+      primary care: a mixed-methods study. BMC Complementary and Alternative
+      Medicine 15: 132.
+      <a href="https://doi.org/10.1186/s12906-015-0654-z"
+        >doi.org/10.1186/s12906-015-0654-z</a
+      >.
 
 - title: Compliance
   caption: |
@@ -49,7 +104,13 @@
     disease is a clear example of this issue — despite the significant mortality decrease achieved
     by the invasive medicine, the overall effects are destroyed by the lack of subsequent
     rehabilitation, mainly because only a small percentage of patients participate in it
-  bibliography: 12
+  bibliography:
+    - |
+      Thompson, D R, and A M Clark. 2009. Cardiac rehabilitation: into the
+      future. Heart 95: 1897–1900.
+      <a href="https://doi.org/10.1136/hrt.2009.173732"
+        >doi.org/10.1136/hrt.2009.173732</a
+      >.
 
 - title: Prophylaxis
   caption: |
@@ -57,4 +118,19 @@
     prophylactic advice regarding physical activity, healthy eating, smoking, and maintaining
     adequate cholesterol levels. Similarly, the application of PCC brings measurable effects in
     this area
-  bibliography: 12, 13
+  bibliography:
+    - |
+      Thompson, D R, and A M Clark. 2009. Cardiac rehabilitation: into the
+      future. Heart 95: 1897–1900.
+      <a href="https://doi.org/10.1136/hrt.2009.173732"
+        >doi.org/10.1136/hrt.2009.173732</a
+      >.
+    - |
+      Clark, Alexander M., Lisa Hartling, Ben Vandermeer, Sue L. Lissel, and
+      Finlay A. McAlister. 2007. Secondary prevention programmes for
+      coronary heart disease: a meta-regression showing the merits of
+      shorter, generalist, primary care-based interventions. European
+      Journal of Cardiovascular Prevention &amp; Rehabilitation 14: 538–546.
+      <a href="https://doi.org/10.1097/HJR.0b013e328013f11a"
+        >doi.org/10.1097/HJR.0b013e328013f11a</a
+      >.
