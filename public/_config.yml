@@ -34,12 +34,12 @@ text:
 navbar:
   - title: Introduction
     url: "#introduction"
-  - title: Model
-    url: "#model"
-  - title: Checklist
-    url: "#checklist"
   - title: Evidence
     url: "#evidence"
+  - title: Characteristics
+    url: "#characteristics"
+  - title: Checklist
+    url: "#checklist"
   - title: Bibliography
     url: "#bibliography"
   - title: Authors

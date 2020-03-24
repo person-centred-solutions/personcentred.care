@@ -17,11 +17,15 @@ p img {
   max-width: 100%;
 }
 
+table {
+  font-family: $font-family-sans-serif;
+}
+
 .svg-content-img {
   width: 100%;
   box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.12);
-  margin-top: $spacer;
-  margin-bottom: $spacer;
+  margin-top: 2 * $spacer;
+  margin-bottom: 2 * $spacer;
 }
 
 /*
