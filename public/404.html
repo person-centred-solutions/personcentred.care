@@ -1,12 +1,11 @@
 ---
-layout: splash
+layout: boiler
+title: Nie znaleziono strony
+front_matter_content: |
+  <h3>
+  <span class="badge badge-danger">404</span>
+  Nie znaleziono strony. Przepraszamy
+  </h3>
 ---
 
-<h1>Nie znaleziono</h1>
-<p>
-  Strona, której szukasz nie została znaleziona. Skorzystaj z menu aby znaleźć
-  poszukiwaną treść. Jeżeli chciałbyś zgłosić błąd na stronie, skontaktuj się z
-  administratorem pod adresem<br />
-  <strong><i>{{ site.links.authorEmailSplit }}</i></strong
-  >.
-</p>
+{% include sections/front-matter.html %} {% include sections/footer.html %}
