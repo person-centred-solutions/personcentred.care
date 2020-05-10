@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	"./entrez"
+	"functions/entrez"
 )
 
 func hello() string {
