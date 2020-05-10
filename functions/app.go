@@ -2,21 +2,15 @@ package main
 
 import (
 	"fmt"
+	"functions/carecounts"
 	"log"
-
-	"functions/entrez"
 )
 
-func hello() string {
-	return "Hello, world."
-}
-
 func main() {
-	xmlResp := "<eSearchResult><Count>6</Count><RetMax>6</RetMax><RetStart>0</RetStart><IdList><Id>19008416</Id><Id>18927361</Id></IdList></eSearchResult>"
-	jsonTransp, err := entrez.UnmarshallEntrezResponse(xmlResp)
+	publicationCounts, err := carecounts.FetchCareCounts()
 	if err != nil {
 		log.Fatal(err)
 	}
 
-	fmt.Print(jsonTransp)
+	fmt.Printf("%v", publicationCounts)
 }
