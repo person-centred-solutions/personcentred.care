@@ -15,34 +15,60 @@
 # in the templates via {{ site.myvariable }}.
 
 url: "" # the base hostname & protocol for your site
-name: Person Centred Care
-title: Person Centred Care
-description: >
-  Explanation of basic assumptions and goals of Person Centred Care.
-  We show how to implement it in hospitals, clinics and among all
-  medical facilities. Both patients and medical professionals
-  should get familiar with the breakthrough of person centred care.
 email: jedrzej@lewandowski.doctor
 baseurl: "" # the subpath of your site, e.g. /blog
-lang: en
 
 text:
+  meta:
+    name:
+      en: Person Centred Care
+      pl: Opieka Zorientowana na Osobę
+    title:
+      en: Person Centred Care
+      pl: Opieka Zorientowana na Osobę
+    description:
+      en: >
+        Explanation of basic assumptions and goals of Person Centred Care.
+        We show how to implement it in hospitals, clinics and among all
+        medical facilities. Both patients and medical professionals
+        should get familiar with the breakthrough of person centred care.
+      pl: >
+        Czym jest Opieka Zorientowana na Osobę? Wyjaśnienie podstawowych załoeń i celów.
+        Pokazujemy jak zaimplementować ją w szpitalach, klinikach i wszystkich jednostkach
+        medycznych. Zarówno pacjenci jak i lekarze powinni zaznajomić się z przełomowymi
+        odkryciami OZO.
   header:
-    suptitle: the empathetic healthcare way
-    title: Person Centred Care
+    suptitle:
+      en: the empathetic healthcare way
+      pl: empatyczne podejście do ochrony zdrowia
+    title:
+      en: Person Centred Care
+      pl: Opieka Zorientowana na Osobę
 
 navbar:
-  - title: Introduction
+  - title:
+      en: Introduction
+      pl: Wstęp
     url: "#introduction"
-  - title: Evidence
+  - title:
+      en: Evidence
+      pl: Dowody naukowe
     url: "#evidence"
-  - title: Characteristics
+  - title:
+      en: Characteristics
+      pl: Charakterystyka
     url: "#characteristics"
-  - title: Checklist
+  - title:
+      en: Checklist
+      pl: Checklista
     url: "#checklist"
-  - title: Bibliography
+  - title:
+      en: Bibliography
+      pl: Bibliografia
     url: "#bibliography"
-  - title: Authors
+  - title:
+      en: Authors
+      pl: Autorzy
     url: "#authors"
 
 # Build settings
@@ -55,6 +81,8 @@ sass:
     - _sass
     - node_modules
 
+// TODO: make seo tag interlingual
+// just include the file https://github.com/jekyll/jekyll-seo-tag/blob/master/lib/template.html
 gems:
   - jekyll-seo-tag
 
