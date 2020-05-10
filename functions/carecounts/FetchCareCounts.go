@@ -2,20 +2,36 @@ package carecounts
 
 import (
 	"functions/pubmed"
-	"log"
 	"strings"
 )
 
 // FetchCareCounts fetches counts of publications on person and patient centred cares
 func FetchCareCounts() (CareCounts, error) {
-	personCentredTerms := []string{"person-centred", "person-centered", "person centred", "person centered"}
+	personCentredCount, err := fetchPersonCentredCount()
+	if err != nil {
+		return CareCounts{}, err
+	}
 
-	// patientCentredTerms := []string{"patient-centred", "patient-centered", "patient centred", "patient centered"}
+	patientCentredCount, err := fetchPatientCentredCount()
+	if err != nil {
+		return CareCounts{}, err
+	}
 
 	var output CareCounts
+	output.PatientCentredCarePublications = patientCentredCount
+	output.PersonCentredCarePublications = personCentredCount
 
-	log.Printf("%v", constructSearchTerm(personCentredTerms))
 	return output, nil
+}
+
+func fetchPersonCentredCount() (uint32, error) {
+	personCentredTerms := []string{"person-centred", "person-centered", "person centred", "person centered"}
+	return fetchPubmedCount(constructSearchTerm(personCentredTerms))
+}
+
+func fetchPatientCentredCount() (uint32, error) {
+	patientCentredTerms := []string{"patient-centred", "patient-centered", "patient centred", "patient centered"}
+	return fetchPubmedCount(constructSearchTerm(patientCentredTerms))
 }
 
 func fetchPubmedCount(terms string) (uint32, error) {
