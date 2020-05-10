@@ -7,10 +7,10 @@ import (
 )
 
 // FetchCareCounts fetches counts of publications on person and patient centred cares
-func FetchCareCounts() (CareCounts, err) {
+func FetchCareCounts() (CareCounts, error) {
 	personCentredTerms := []string{"person-centred", "person-centered", "person centred", "person centered"}
 
-	patientCentredTerms := []string{"patient-centred", "patient-centered", "patient centred", "patient centered"}
+	// patientCentredTerms := []string{"patient-centred", "patient-centered", "patient centred", "patient centered"}
 
 	var output CareCounts
 
@@ -30,8 +30,8 @@ func constructSearchTerm(alternativeTerms []string) string {
 	var termsTransformed []string
 
 	for _, term := range alternativeTerms {
-		termTransformed = "\"" + term + "\"[All Terms]"
-		termsUnion = append(termsUnion, termTransformed)
+		termTransformed := "\"" + term + "\"[All Terms]"
+		termsTransformed = append(termsTransformed, termTransformed)
 	}
 
 	return strings.Join(termsTransformed, " OR ")
