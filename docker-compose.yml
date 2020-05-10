@@ -3,5 +3,8 @@ version: "3.6"
 services:
   web:
     build: .
+    command: 'bash -c "cd /app/public && npm ci && bundle exec jekyll serve"'
     volumes:
-      - ./public:/srv/jekyll
+      - .:/app
+    ports:
+      - 4000:4000
