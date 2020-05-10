@@ -1,3 +1,4 @@
+package entrez
 
 import (
 	"encoding/json"
@@ -5,7 +6,7 @@ import (
 )
 
 func UnmarshallEntrezResponse(response string) (string, error) {
-	var data Data
+	var data EntrezResponse
 	err := xml.Unmarshal([]byte(response), &data)
 	if err != nil {
 		return "", err
@@ -16,5 +17,5 @@ func UnmarshallEntrezResponse(response string) (string, error) {
 		return "", err
 	}
 
-	return jsonData
+	return string(jsonData), nil
 }
