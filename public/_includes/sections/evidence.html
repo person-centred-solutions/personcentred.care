@@ -14,7 +14,7 @@
       {% for item in site.data.evidence %}
       <div class="carousel-item {% if forloop.index0 == 0 %}active{% endif %}">
         <div class="carousel-item-inner">
-          <p class="evidence-uptitle">>{{ site.labels.pccEvidence[page.lang] }}</p>
+          <p class="evidence-uptitle">{{ site.labels.pccEvidence[page.lang] }}</p>
           <h4>{{ item.title[page.lang] }}</h4>
           <p>{{ item.caption[page.lang] }}</p>
 
