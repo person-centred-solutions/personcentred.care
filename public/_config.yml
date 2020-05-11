@@ -49,6 +49,20 @@ header:
     en: Person Centred Care
     pl: Opieka Zorientowana na Osobę
 
+labels:
+  next:
+    en: Next
+    pl: Następny
+  previous:
+    en: Previous
+    pl: Poprzedni
+  pccEvidence:
+    en: Evidence supporting PCC
+    pl: Dowody naukowe potwierdzające OZO
+  bibliography:
+    en: Bibliography
+    pl: Bibliografia
+
 navbar:
   - title:
       en: Introduction

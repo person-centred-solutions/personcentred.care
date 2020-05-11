@@ -14,9 +14,9 @@
       {% for item in site.data.evidence %}
       <div class="carousel-item {% if forloop.index0 == 0 %}active{% endif %}">
         <div class="carousel-item-inner">
-          <p class="evidence-uptitle">Evidence supporting PCC</p>
-          <h4>{{ item.title }}</h4>
-          <p>{{ item.caption }}</p>
+          <p class="evidence-uptitle">>{{ site.labels.pccEvidence[page.lang] }}</p>
+          <h4>{{ item.title[page.lang] }}</h4>
+          <p>{{ item.caption[page.lang] }}</p>
 
           {% for bibliographyItem in item.bibliography %}
             <p class="evidence-bibliography">
@@ -34,7 +34,7 @@
       data-slide="prev"
     >
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
+      <span class="sr-only">{{ site.labels.previous[page.lang] }}</span>
     </a>
     <a
       class="carousel-control-next"
@@ -43,7 +43,7 @@
       data-slide="next"
     >
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
+      <span class="sr-only">>{{ site.labels.next[page.lang] }}</span>
     </a>
   </div>
 </article>
