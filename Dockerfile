@@ -10,8 +10,6 @@ RUN apt-get -y install nodejs
 
 # Setup ruby and local plugins
 ADD Gemfile Gemfile.lock /app/
-ADD .git /app/.git
-ADD jekyll-seo-tag /app/jekyll-seo-tag
 
 RUN ls
 RUN bundle install
