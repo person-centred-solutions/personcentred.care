@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/Shopify/liquid-c.git
-  revision: 62665d570499f22a87bbd8dee1ca4cfd4fa9947d
+  revision: 34ee43ccf2d48b5d07f72ffa68b456626679affc
   branch: master
   specs:
     liquid-c (4.0.0)
@@ -14,20 +14,28 @@ GIT
     liquid (4.0.3)
 
 GIT
-  remote: https://github.com/jekyll/jekyll.git
-  revision: 83decb42f6998b047c3310245b5a3fe59bfc7b91
+  remote: https://github.com/jblew/jekyll-seo-tag.git
+  revision: 6135021410981d2d76878568e9c21cf363882bfe
+  branch: master
   specs:
-    jekyll (4.0.0)
+    jekyll-seo-tag (2.6.1)
+      jekyll (>= 3.3, < 5.0)
+
+GIT
+  remote: https://github.com/jekyll/jekyll.git
+  revision: 11dd8934166d0947055bc01017426bad01277bc1
+  specs:
+    jekyll (4.0.1)
       addressable (~> 2.4)
       colorator (~> 1.0)
       em-websocket (~> 0.5)
-      i18n (>= 0.9.5, < 2)
+      i18n (~> 1.0)
       jekyll-sass-converter (~> 2.0)
       jekyll-watch (~> 2.0)
       kramdown (~> 2.1)
       kramdown-parser-gfm (~> 1.0)
       liquid (~> 4.0)
-      mercenary (~> 0.3.3)
+      mercenary (~> 0.4.0)
       pathutil (~> 0.9)
       rouge (~> 3.0)
       safe_yaml (~> 1.0)
@@ -63,34 +71,34 @@ GEM
     jekyll-paginate (1.1.0)
     jekyll-sass-converter (2.1.0)
       sassc (> 2.0.1, < 3.0)
-    jekyll-seo-tag (2.6.1)
-      jekyll (>= 3.3, < 5.0)
     jekyll-sitemap (1.4.0)
       jekyll (>= 3.7, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
-    kramdown (2.1.0)
+    kramdown (2.2.1)
+      rexml
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
     listen (3.2.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
-    mercenary (0.3.6)
+    mercenary (0.4.0)
     minima (2.5.1)
       jekyll (>= 3.5, < 5.0)
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
-    public_suffix (4.0.3)
-    rb-fsevent (0.10.3)
+    public_suffix (4.0.5)
+    rb-fsevent (0.10.4)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
-    rouge (3.17.0)
-    ruby-enum (0.7.2)
+    rexml (3.2.4)
+    rouge (3.18.0)
+    ruby-enum (0.8.0)
       i18n
     safe_yaml (1.0.5)
-    sassc (2.2.1)
+    sassc (2.3.0)
       ffi (~> 1.9)
     terminal-table (1.8.0)
       unicode-display_width (~> 1.1, >= 1.1.1)
@@ -105,11 +113,12 @@ DEPENDENCIES
   jekyll-commonmark
   jekyll-include-cache
   jekyll-paginate (~> 1.1)
-  jekyll-seo-tag
+  jekyll-seo-tag!
   jekyll-sitemap
   liquid!
   liquid-c!
+  mercenary
   minima
 
 BUNDLED WITH
-   2.1.2
+   2.1.4
