@@ -1,8 +1,16 @@
 ---
 layout: boiler
+lang: en
 ---
 
-{% include sections/front-matter.html %} {% include sections/introduction.html
-%} {% include sections/evidence.html %} {% include sections/characteristics.html
-%} {% include sections/checklist.html %} {% include sections/bibliography.html
-%} {% include sections/authors.html %} {% include sections/footer.html %}
+<!-- TASKTODO format or perform auto selection -->
+<!-- TASKTODO is there a way to tell google which front page is for whioch language ( maybe a 302 REDIRECT or sth? -->
+
+<h1>Choose lang</h1>
+{% for lang in site.languages %}
+  {% assign language = lang[1] %}
+  <a href="/{{ language.code }}/">
+    {{ language.icon }}
+    {{ language.label }}
+  </a>
+{% endfor %}

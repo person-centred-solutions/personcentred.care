@@ -1,12 +1,12 @@
 <!doctype html>
-<html lang="pl">
+<html lang="{{ page.lang | default: "en" }}">
 
-<head>{% include head.html %}</head>
+  <head>{% include layout/head.html %}</head>
 
-<body class="{{ layout.body_class }}">
+  <body class="{{ layout.body_class }}">
     {{ content }}
 
-    {% include foot.html %}
-</body>
+    {% include layout/foot.html %}
+  </body>
 
 </html>
