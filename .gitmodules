@@ -1,0 +1,3 @@
+[submodule "jekyll-seo-tag"]
+	path = jekyll-seo-tag
+	url = git@github.com:Jblew/jekyll-seo-tag.git
