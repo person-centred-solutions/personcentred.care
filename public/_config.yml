@@ -1,43 +1,53 @@
 url: "" # the base hostname & protocol for your site
 email: jedrzej@lewandowski.doctor
 baseurl: "/" # the subpath of your site, e.g. /blog
+seo:
+  author: co-authored by Roman Lewandowski, Jędrzej Lewandowski
+  canonicalBase: https://personcentred.care/
+  ogImage:
+    url:
+    width:
+    height:
 
+defaultLang: en
 languages:
   en:
     label: English
     code: en
+    locale: en_GB
     icon: 🇺🇸
   pl:
     label: Polski
     code: pl
+    locale: pl_PL
     icon: 🇵🇱
 
-text:
-  meta:
-    name:
-      en: Person Centred Care
-      pl: Opieka Zorientowana na Osobę
-    title:
-      en: Person Centred Care
-      pl: Opieka Zorientowana na Osobę
-    description:
-      en: >
-        Explanation of basic assumptions and goals of Person Centred Care.
-        We show how to implement it in hospitals, clinics and among all
-        medical facilities. Both patients and medical professionals
-        should get familiar with the breakthrough of person centred care.
-      pl: >
-        Czym jest Opieka Zorientowana na Osobę? Wyjaśnienie podstawowych załoeń i celów.
-        Pokazujemy jak zaimplementować ją w szpitalach, klinikach i wszystkich jednostkach
-        medycznych. Zarówno pacjenci jak i lekarze powinni zaznajomić się z przełomowymi
-        odkryciami OZO.
-  header:
-    suptitle:
-      en: the empathetic healthcare way
-      pl: empatyczne podejście do ochrony zdrowia
-    title:
-      en: Person Centred Care
-      pl: Opieka Zorientowana na Osobę
+meta:
+  name:
+    en: Person Centred Care
+    pl: Opieka Zorientowana na Osobę
+  title:
+    en: Person Centred Care
+    pl: Opieka Zorientowana na Osobę
+  description:
+    en: >
+      Explanation of basic assumptions and goals of Person Centred Care.
+      We show how to implement it in hospitals, clinics and among all
+      medical facilities. Both patients and medical professionals
+      should get familiar with the breakthrough of person centred care.
+    pl: >
+      Czym jest Opieka Zorientowana na Osobę? Wyjaśnienie podstawowych załoeń i celów.
+      Pokazujemy jak zaimplementować ją w szpitalach, klinikach i wszystkich jednostkach
+      medycznych. Zarówno pacjenci jak i lekarze powinni zaznajomić się z przełomowymi
+      odkryciami OZO.
+
+header:
+  suptitle:
+    en: the empathetic healthcare way
+    pl: empatyczne podejście do ochrony zdrowia
+  title:
+    en: Person Centred Care
+    pl: Opieka Zorientowana na Osobę
 
 navbar:
   - title:
@@ -81,9 +91,9 @@ sass:
 defaults:
   - scope:
       path: "" # an empty string here means all files in the project
-      type: "posts"
     values:
       layout: "boiler"
+      lang: "en"
 
 theme: minima
 plugins:

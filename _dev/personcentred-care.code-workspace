@@ -7,6 +7,7 @@
       "path": "../functions"
     }
   ],
+
   "settings": {
     "editor.tabSize": 2,
     "editor.insertSpaces": true,
@@ -40,12 +41,10 @@
     "breadcrumbs.enabled": true,
     "diffEditor.ignoreTrimWhitespace": false,
     "eslint.alwaysShowStatus": true,
-    "eslint.autoFixOnSave": true,
     "eslint.packageManager": "yarn",
     "eslint.lintTask.enable": true,
     "tslint.ignoreDefinitionFiles": false,
     "tslint.jsEnable": true,
-    "tslint.autoFixOnSave": true,
     "vetur.trace.server": "verbose",
     "vetur.format.defaultFormatter.html": "prettier",
     "vetur.format.defaultFormatter.css": "prettier",
@@ -70,6 +69,12 @@
     "peacock.remoteColor": "#c7482f",
     "editor.codeActionsOnSave": {
       "source.fixAll.eslint": true
+    },
+    "[json]": {
+      "editor.formatOnSave": false,
+      "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": false
+      }
     }
   },
   "extensions": {

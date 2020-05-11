@@ -8,39 +8,27 @@
 
 <meta content="Jekyll v{{ jekyll.version }}" name="generator"/>
 
-{% if seo_tag.page_title %}
-  <meta property="og:title" content="{{ seo_tag.page_title }}"/>
+<meta property="og:title" content="{{ page.title | default site.text.meta.title[page.lang] }}"/>
+
+<meta name="author" content="{{ site.seo.author }}"/>
+
+<meta property="og:locale" content="{{ site.languages[page.lang].locale }}"/>
+
+{% assign description = site.meta.description[page.lang] %}
+<meta name="description" content="{{ description }}"/>
+<meta property="og:description" content="{{ description }}"/>
+
+<link rel="canonical" href="{{ page.canonical_url }}"/>
+<meta property="og:url" content="{{ page.canonical_url }}"/>
+
+<meta property="og:site_name" content="{{ site.meta.name[page.lang] }}"/>
+
+{% if site.seo.image and site.seo.image.url.length > 0  %}
+  <meta property="og:image" content="{{ site.seo.image.url }}"/>
+  <meta property="og:image:height" content="{{ site.seo.image.height }}"/>
+  <meta property="og:image:width" content="{{ site.seo.image.width }}"/>
 {% endif %}
 
-{% if seo_tag.author.name %}
-  <meta name="author" content="{{ seo_tag.author.name }}"/>
-{% endif %}
-
-<meta property="og:locale" content="{{ seo_tag.page_lang | replace:'-','_' }}"/>
-
-{% if seo_tag.description %}
-  <meta name="description" content="{{ seo_tag.description }}"/>
-  <meta property="og:description" content="{{ seo_tag.description }}"/>
-{% endif %}
-
-{% if site.url %}
-  <link rel="canonical" href="{{ seo_tag.canonical_url }}"/>
-  <meta property="og:url" content="{{ seo_tag.canonical_url }}"/>
-{% endif %}
-
-{% if seo_tag.site_title %}
-  <meta property="og:site_name" content="{{ seo_tag.site_title }}"/>
-{% endif %}
-
-{% if seo_tag.image %}
-  <meta property="og:image" content="{{ seo_tag.image.path }}"/>
-  {% if seo_tag.image.height %}
-    <meta property="og:image:height" content="{{ seo_tag.image.height }}"/>
-  {% endif %}
-  {% if seo_tag.image.width %}
-    <meta property="og:image:width" content="{{ seo_tag.image.width }}"/>
-  {% endif %}
-{% endif %}
 
 {% if page.date %}
   <meta content="article" property="og:type"/>
@@ -55,22 +43,20 @@
 {% endif %}
 
 
-{% if seo_tag.image %}
+{% if site.seo.image and site.seo.image.url.length > 0 %}
   <meta name="twitter:card" content="{{ page.twitter.card | default: site.twitter.card | default: "summary_large_image" }}"/>
-  <meta property="twitter:image" content="{{ seo_tag.image.path }}"/>
+  <meta property="twitter:image" content="{{ site.seo.image.url }}"/>
 {% else %}
   <meta content="summary" name="twitter:card"/>
 {% endif %}
 
-{% if seo_tag.page_title %}
-  <meta property="twitter:title" content="{{ seo_tag.page_title }}"/>
-{% endif %}
+<meta property="twitter:title" content="{{ page.title | default site.meta.title[page.lang] }}"/>
 
 {% if site.twitter %}
   <meta content="@{{ site.twitter.username | remove:'@' }}" name="twitter:site"/>
 
-  {% if seo_tag.author.twitter %}
-    <meta content="@{{ seo_tag.author.twitter | remove:'@' }}" name="twitter:creator"/>
+  {% if site.twitter.creator %}
+    <meta content="@{{ site.twitter.creator.username | remove:'@' }}" name="twitter:creator"/>
   {% endif %}
 {% endif %}
 
@@ -112,8 +98,4 @@
   <meta name="google-site-verification" content="{{ site.google_site_verification }}"/>
 {% endif %}
 
-<script type="application/ld+json">
-undefined
-</script>
-
-<!-- End Jekyll SEO tag -->
+{% include json-ld.html %}

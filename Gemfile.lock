@@ -14,14 +14,6 @@ GIT
     liquid (4.0.3)
 
 GIT
-  remote: https://github.com/jblew/jekyll-seo-tag.git
-  revision: 6135021410981d2d76878568e9c21cf363882bfe
-  branch: master
-  specs:
-    jekyll-seo-tag (2.6.1)
-      jekyll (>= 3.3, < 5.0)
-
-GIT
   remote: https://github.com/jekyll/jekyll.git
   revision: 11dd8934166d0947055bc01017426bad01277bc1
   specs:
@@ -71,6 +63,8 @@ GEM
     jekyll-paginate (1.1.0)
     jekyll-sass-converter (2.1.0)
       sassc (> 2.0.1, < 3.0)
+    jekyll-seo-tag (2.6.1)
+      jekyll (>= 3.3, < 5.0)
     jekyll-sitemap (1.4.0)
       jekyll (>= 3.7, < 5.0)
     jekyll-watch (2.2.1)
@@ -113,7 +107,7 @@ DEPENDENCIES
   jekyll-commonmark
   jekyll-include-cache
   jekyll-paginate (~> 1.1)
-  jekyll-seo-tag!
+  jekyll-seo-tag
   jekyll-sitemap
   liquid!
   liquid-c!

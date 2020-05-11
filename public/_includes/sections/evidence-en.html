@@ -1,0 +1,51 @@
+<article class="section-evidence">
+    <!-- TASKTODO translate -->
+
+  <a name="evidence"></a>
+  <div id="evidenceCarousel" class="evidence-carousel carousel slide" data-ride="carousel" data-interval="7000">
+    <ol class="carousel-indicators">
+      {% for item in site.data.evidence %}
+      <li
+        data-target="#evidenceCarousel"
+        data-slide-to="{{ forloop.index0 }}"
+        {% if forloop.index0 == 0 %}class="active"{% endif %}
+      ></li>
+      {% endfor %}
+    </ol>
+    <div class="carousel-inner">
+      {% for item in site.data.evidence %}
+      <div class="carousel-item {% if forloop.index0 == 0 %}active{% endif %}">
+        <div class="carousel-item-inner">
+          <p class="evidence-uptitle">Evidence supporting PCC</p>
+          <h4>{{ item.title }}</h4>
+          <p>{{ item.caption }}</p>
+
+          {% for bibliographyItem in item.bibliography %}
+            <p class="evidence-bibliography">
+              * {{ bibliographyItem }}
+            </p>
+          {% endfor %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <a
+      class="carousel-control-prev"
+      href="#evidenceCarousel"
+      role="button"
+      data-slide="prev"
+    >
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a
+      class="carousel-control-next"
+      href="#evidenceCarousel"
+      role="button"
+      data-slide="next"
+    >
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</article>
