@@ -6,16 +6,19 @@
       {{ page.front_matter_content }}
     </header>
     <nav class="col-12 col-sm-4 col-lg-3">
+      <span class="lang-selector-row">
+        {% include hreflang-selector.html %}
+      </span>
       <ul>
         {% for item in site.navbar %}
-        <li>
-          <a href="{{ item.url }}">{{ item.title[page.lang] }}</a>
-        </li>
+          <li>
+            <a href="{{ item.url }}">{{ item.title[page.lang] }}</a>
+          </li>
         {% endfor %}
         <li>
-          <a class="go-further" href="#introduction"
-            ><i class="fas fa-arrow-alt-circle-down"></i
-          ></a>
+          <a class="go-further" href="#introduction">
+            <i class="fas fa-arrow-alt-circle-down"></i>
+          </a>
         </li>
       </ul>
     </nav>

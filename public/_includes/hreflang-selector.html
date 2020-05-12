@@ -1,0 +1,11 @@
+{% if page.hreflang %}
+
+  {% for item in page.hreflang %}
+    <a href="{{ item.url | absolute_url }}" class="lang-selector">
+      {% assign lang = site.languages[item.lang] %}
+      {{ lang.icon }}
+      {{ lang.label }}
+    </a>
+  {% endfor %}
+
+{% endif %}

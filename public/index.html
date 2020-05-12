@@ -1,16 +1,21 @@
 ---
-layout: boiler
+layout: base-choose-lang
+title: Introduction to Person Centred Care
+permalink: /
+canonical_url: /en/
 lang: en
+hreflang:
+  - url: /en/
+    lang: en
+  - url: /pl/
+    lang: pl
+hreflangDefault: /
 ---
 
-<!-- TASKTODO format or perform auto selection -->
-<!-- TASKTODO is there a way to tell google which front page is for whioch language ( maybe a 302 REDIRECT or sth? -->
-
-<h1>Choose lang</h1>
-{% for lang in site.languages %}
-  {% assign language = lang[1] %}
-  <a href="/{{ language.code }}/">
-    {{ language.icon }}
-    {{ language.label }}
-  </a>
-{% endfor %}
+{% include sections/introduction-en.html %}
+{% include sections/evidence.html %}
+{% include sections/characteristics-en.html %}
+{% include sections/checklist-en.html %}
+{% include sections/bibliography.html %}
+{% include sections/authors-en.html %}
+{% include sections/footer.html %}

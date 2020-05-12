@@ -4,11 +4,11 @@
     {{ page.title }}
     —
   {% endif %}
-  {{ site.text.meta.title[page.lang] }}</title>
+  {{ site.meta.title[page.lang] }}</title>
 
 <meta content="Jekyll v{{ jekyll.version }}" name="generator"/>
 
-<meta property="og:title" content="{{ page.title | default site.text.meta.title[page.lang] }}"/>
+<meta property="og:title" content="{{ page.title | default site.meta.title[page.lang] }}"/>
 
 <meta name="author" content="{{ site.seo.author }}"/>
 
@@ -18,8 +18,8 @@
 <meta name="description" content="{{ description }}"/>
 <meta property="og:description" content="{{ description }}"/>
 
-<link rel="canonical" href="{{ page.canonical_url }}"/>
-<meta property="og:url" content="{{ page.canonical_url }}"/>
+<link rel="canonical" href="{{ page.canonical_url | absolute_url }}"/>
+<meta property="og:url" content="{{ page.canonical_url | absolute_url }}"/>
 
 <meta property="og:site_name" content="{{ site.meta.name[page.lang] }}"/>
 

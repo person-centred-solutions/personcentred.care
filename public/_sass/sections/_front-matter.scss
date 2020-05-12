@@ -14,17 +14,22 @@
 
   header {
     text-align: right;
+
     padding-right: $header-right-padding;
+    @include media-breakpoint-only(xs) {
+      padding-right: $header-right-padding/2;
+    }
 
     h2 {
       font-size: 1rem;
-      margin-bottom: 0;
-      margin-left: 0.25rem;
+      margin-bottom: 0.25rem;
+      margin-left: 0.5rem;
       color: #555;
     }
 
     h1 {
       margin-top: 0;
+      margin-bottom: 1rem;
     }
   }
 
@@ -33,7 +38,7 @@
 
     @include media-breakpoint-only(xs) {
       text-align: right;
-      padding-right: $header-right-padding;
+      padding-right: $header-right-padding/2;
     }
 
     ul {
@@ -54,5 +59,17 @@
 
   .go-further {
     font-size: 2em;
+  }
+
+  .lang-selector-row {
+    display: block;
+    margin-bottom: 1rem;
+  }
+}
+
+@include media-breakpoint-only(xs) {
+  .lang-pl .section-front-matter h1 {
+    font-size: 2.5rem;
+    letter-spacing: -0.04rem;
   }
 }

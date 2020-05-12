@@ -28,46 +28,16 @@ table {
   margin-bottom: 2.5 * $spacer;
 }
 
-/*
-p {
-    line-height: 1.75;
+a.lang-selector {
+  color: #999;
+  text-decoration: none;
+  font-size: 75%;
 }
 
-a {
-    @include a-link;
+a.lang-selector + a.lang-selector {
+  margin-left: 0.5rem;
 }
 
-.text-primary {
-    color: $primary !important;
+a:hover.lang-selector {
+  text-decoration: underline;
 }
-
-h1, .h1,
-h2, .h2,
-h3, .h3,
-h4, .h4,
-h5, .h5,
-h6, .h6 {
-    font-weight: 700;
-    @include heading-font;
-}
-
-
-// Highlight color customization
-::-moz-selection {
-    background: $primary;
-    text-shadow: none;
-}
-
-::selection {
-    background: $primary;
-    text-shadow: none;
-}
-
-img::selection {
-    background: transparent;
-}
-
-img::-moz-selection {
-    background: transparent;
-}
-*/

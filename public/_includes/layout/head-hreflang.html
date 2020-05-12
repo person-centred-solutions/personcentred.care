@@ -1,0 +1,9 @@
+{% if page.hreflang %}
+  {% for item in page.hreflang %}
+    <link href="{{ item.url | absolute_url }}" hreflang="{{ item.lang }}" rel="alternate"/>
+  {% endfor %}
+{% endif %}
+
+{% if page.hreflangDefault %}
+  <link href="{{ page.hreflangDefault | absolute_url }}" hreflang="x-default" rel="alternate"/>
+{% endif %}

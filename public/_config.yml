@@ -1,6 +1,8 @@
 url: "" # the base hostname & protocol for your site
 email: jedrzej@lewandowski.doctor
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "/"
+strict_front_matter: true
+
 seo:
   author: co-authored by Roman Lewandowski, Jędrzej Lewandowski
   canonicalBase: https://personcentred.care/
@@ -44,10 +46,10 @@ meta:
 header:
   suptitle:
     en: the empathetic healthcare way
-    pl: empatyczne podejście do ochrony zdrowia
+    pl: empatyczna ochrona zdrowia
   title:
     en: Person Centred Care
-    pl: Opieka Zorientowana na Osobę
+    pl: Opieka Zorientowana<br /> na Osobę
 
 labels:
   next:
@@ -99,15 +101,16 @@ sass:
     - _sass
     - node_modules
 
-# // TODO: make seo tag interlingual
-# // just include the file https://github.com/jekyll/jekyll-seo-tag/blob/master/lib/template.html
-
 defaults:
   - scope:
       path: "" # an empty string here means all files in the project
     values:
       layout: "boiler"
       lang: "en"
+  - scope:
+      path: "media/**/*"
+    values:
+      sitemap: false
 
 theme: minima
 plugins:
