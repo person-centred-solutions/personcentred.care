@@ -1,11 +1,21 @@
-- title: Hip fractures
-  caption: |
-    The use of PCC in the group of patients with hip fractures reduced the number of days of care
-    by 50 percent and reduced the number of medical complications and the level of pain experienced
-    by patients. The same study showed that the highest improvement was achieved in the oldest
-    patients. In the 91–97 age group, the number of days of care decreased from 46 days to 12 days,
-    compared to the age group 65–70 years in which the number of days of care was reduced from
-    16 to 14 days
+- title:
+    en: Hip fractures
+    pl: Złamania biodra
+  caption:
+    en: |
+      The use of PCC in the group of patients with hip fractures reduced the number of days of care
+      by 50 percent and reduced the number of medical complications and the level of pain experienced
+      by patients. The same study showed that the highest improvement was achieved in the oldest
+      patients. In the 91–97 age group, the number of days of care decreased from 46 days to 12 days,
+      compared to the age group 65–70 years in which the number of days of care was reduced from
+      16 to 14 days
+    pl: |
+      The use of PCC in the group of patients with hip fractures reduced the number of days of care
+      by 50 percent and reduced the number of medical complications and the level of pain experienced
+      by patients. The same study showed that the highest improvement was achieved in the oldest
+      patients. In the 91–97 age group, the number of days of care decreased from 46 days to 12 days,
+      compared to the age group 65–70 years in which the number of days of care was reduced from
+      16 to 14 days
   bibliography:
     - |
       Olsson, Lars-Eric, Elisabeth Hansson, Inger Ekman, and Jón Karlsson.
@@ -14,11 +24,18 @@
       <a href="https://doi.org/10.1111/j.1365-2648.2009.05017.x">
       doi.org/10.1111/j.1365-2648.2009.05017.x</a>.
 
-- title: Rheumatoid arthritis
-  caption: |
-    The use of PCC in rheumatoid arthritis patients has proven reduced fatigue, increased
-    muscle strength, greater confidence in their own abilities and better self-assessment of health,
-    as well as reduced the cost of treatment
+- title:
+    en: Rheumatoid arthritis
+    pl: Reumatoidalne zapalenie stawów
+  caption:
+    en: |
+      The use of PCC in rheumatoid arthritis patients has proven reduced fatigue, increased
+      muscle strength, greater confidence in their own abilities and better self-assessment of health,
+      as well as reduced the cost of treatment
+    pl: |
+      The use of PCC in rheumatoid arthritis patients has proven reduced fatigue, increased
+      muscle strength, greater confidence in their own abilities and better self-assessment of health,
+      as well as reduced the cost of treatment
   bibliography:
     - |
       Feldthusen, C, A Grimby-Ekman, H Forsblad-d’Elia, L Jacobsson, and K
@@ -29,10 +46,16 @@
         >doi.org/10.2340/16501977-2090</a
       >.
 
-- title: Palliative care
-  caption: |
-    Similarly, the introduction of PCC into the process of cancer treatment and palliative care led
-    to a higher quality of life and greater relief from symptoms compared to the control group
+- title:
+    en: Palliative care
+    pl: Opieka paliatywna
+  caption:
+    en: |
+      Similarly, the introduction of PCC into the process of cancer treatment and palliative care led
+      to a higher quality of life and greater relief from symptoms compared to the control group
+    pl: |
+      Similarly, the introduction of PCC into the process of cancer treatment and palliative care led
+      to a higher quality of life and greater relief from symptoms compared to the control group
   bibliography:
     - |
       Brännström, Margareta, and Kurt Boman. 2014. Effects of person-centred
@@ -50,12 +73,20 @@
         >doi.org/10.1186/s12912-018-0319-6</a
       >.
 
-- title: Dementia
-  caption: |
-    Positive effects of PCC implementation were also seen in the psychiatric care for elderly
-    people. Individually tailored PCC interventions for people with dementia in 12 nursing homes
-    reduced the proportion of residents receiving neuroleptics by about 19.1 percent compared with
-    other similar centers
+- title:
+    en: Dementia
+    pl: Otępienie
+  caption:
+    en: |
+      Positive effects of PCC implementation were also seen in the psychiatric care for elderly
+      people. Individually tailored PCC interventions for people with dementia in 12 nursing homes
+      reduced the proportion of residents receiving neuroleptics by about 19.1 percent compared with
+      other similar centers
+    pl: |
+      Positive effects of PCC implementation were also seen in the psychiatric care for elderly
+      people. Individually tailored PCC interventions for people with dementia in 12 nursing homes
+      reduced the proportion of residents receiving neuroleptics by about 19.1 percent compared with
+      other similar centers
   bibliography:
     - |
       Fossey, Jane, Clive Ballard, Edmund Juszczak, Ian James, Nicola Alder,
@@ -66,10 +97,16 @@
         >doi.org/10.1136/bmj.38782.575868.7C</a
       >.
 
-- title: Nursing home
-  caption: |
-    The atmosphere in the nursing home after applying PCC was more friendly than before and the
-    staff were less stressed
+- title:
+    en: Nursing home
+    pl: Dom opieki
+  caption:
+    en: |
+      The atmosphere in the nursing home after applying PCC was more friendly than before and the
+      staff were less stressed
+    pl: |
+      The atmosphere in the nursing home after applying PCC was more friendly than before and the
+      staff were less stressed
   bibliography:
     - |
       Edvardsson, David, P. O. Sandman, and Lena Borell. 2014. Implementing
@@ -81,11 +118,18 @@
         >doi.org/10.1017/S1041610214000258</a
       >.
 
-- title: Psychiatric care
-  caption: |
-    Psychiatric care In psychiatric care, about 50 percent of patients reported during the study
-    that PCC led to a reduction in anxiety compared with 10 percent among patients treated
-    conventionally. Similar results were achived by implementing PCC into depression treatment
+- title:
+    en: Psychiatric care
+    pl: Opieka psychiatryczna
+  caption:
+    en: |
+      Psychiatric care In psychiatric care, about 50 percent of patients reported during the study
+      that PCC led to a reduction in anxiety compared with 10 percent among patients treated
+      conventionally. Similar results were achived by implementing PCC into depression treatment
+    pl: |
+      Psychiatric care In psychiatric care, about 50 percent of patients reported during the study
+      that PCC led to a reduction in anxiety compared with 10 percent among patients treated
+      conventionally. Similar results were achived by implementing PCC into depression treatment
   bibliography:
     - |
       Arvidsdotter, Tina, Bertil Marklund, Charles Taft, and Sven Kylén.
@@ -97,13 +141,22 @@
         >doi.org/10.1186/s12906-015-0654-z</a
       >.
 
-- title: Compliance
-  caption: |
-    Patients' failure to comply with the recommendations of medical professionals is a crucial
-    issue of modern healthcare, especially in the post-acute treatment period. Coronary artery
-    disease is a clear example of this issue — despite the significant mortality decrease achieved
-    by the invasive medicine, the overall effects are destroyed by the lack of subsequent
-    rehabilitation, mainly because only a small percentage of patients participate in it
+- title:
+    en: Compliance
+    pl: Compliance
+  caption:
+    en: |
+      Patients' failure to comply with the recommendations of medical professionals is a crucial
+      issue of modern healthcare, especially in the post-acute treatment period. Coronary artery
+      disease is a clear example of this issue — despite the significant mortality decrease achieved
+      by the invasive medicine, the overall effects are destroyed by the lack of subsequent
+      rehabilitation, mainly because only a small percentage of patients participate in it
+    pl: |
+      Patients' failure to comply with the recommendations of medical professionals is a crucial
+      issue of modern healthcare, especially in the post-acute treatment period. Coronary artery
+      disease is a clear example of this issue — despite the significant mortality decrease achieved
+      by the invasive medicine, the overall effects are destroyed by the lack of subsequent
+      rehabilitation, mainly because only a small percentage of patients participate in it
   bibliography:
     - |
       Thompson, D R, and A M Clark. 2009. Cardiac rehabilitation: into the
@@ -112,12 +165,20 @@
         >doi.org/10.1136/hrt.2009.173732</a
       >.
 
-- title: Prophylaxis
-  caption: |
-    Prophylaxis suffers from similar problems of the inability of patients to adhere to the
-    prophylactic advice regarding physical activity, healthy eating, smoking, and maintaining
-    adequate cholesterol levels. Similarly, the application of PCC brings measurable effects in
-    this area
+- title:
+    en: Prophylaxis
+    pl: Profilaktyka
+  caption:
+    en: |
+      Prophylaxis suffers from similar problems of the inability of patients to adhere to the
+      prophylactic advice regarding physical activity, healthy eating, smoking, and maintaining
+      adequate cholesterol levels. Similarly, the application of PCC brings measurable effects in
+      this area
+    pl: |
+      Prophylaxis suffers from similar problems of the inability of patients to adhere to the
+      prophylactic advice regarding physical activity, healthy eating, smoking, and maintaining
+      adequate cholesterol levels. Similarly, the application of PCC brings measurable effects in
+      this area
   bibliography:
     - |
       Thompson, D R, and A M Clark. 2009. Cardiac rehabilitation: into the
