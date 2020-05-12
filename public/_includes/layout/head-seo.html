@@ -8,7 +8,7 @@
 
 <meta content="Jekyll v{{ jekyll.version }}" name="generator"/>
 
-<meta property="og:title" content="{{ page.title | default site.meta.title[page.lang] }}"/>
+<meta property="og:title" content="{{ page.title | default: site.meta.title[page.lang] }}"/>
 
 <meta name="author" content="{{ site.seo.author }}"/>
 
@@ -50,7 +50,7 @@
   <meta content="summary" name="twitter:card"/>
 {% endif %}
 
-<meta property="twitter:title" content="{{ page.title | default site.meta.title[page.lang] }}"/>
+<meta property="twitter:title" content="{{ page.title | default: site.meta.title[page.lang] }}"/>
 
 {% if site.twitter %}
   <meta content="@{{ site.twitter.username | remove:'@' }}" name="twitter:site"/>

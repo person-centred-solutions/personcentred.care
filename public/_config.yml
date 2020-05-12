@@ -1,7 +1,6 @@
-url: "" # the base hostname & protocol for your site
+url: "https://personcentred.care" # the base hostname & protocol for your site
 email: jedrzej@lewandowski.doctor
 baseurl: "/"
-strict_front_matter: true
 
 seo:
   author: co-authored by Roman Lewandowski, Jędrzej Lewandowski
@@ -100,6 +99,12 @@ sass:
   load_paths:
     - _sass
     - node_modules
+
+liquid:
+  strict_front_matter: true
+  error_mode: strict
+  #  strict_variables: true
+  strict_filters: true
 
 defaults:
   - scope:
