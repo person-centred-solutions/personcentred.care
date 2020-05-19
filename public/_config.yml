@@ -41,6 +41,9 @@ meta:
       Pokazujemy jak zaimplementować ją w szpitalach, klinikach i wszystkich jednostkach
       medycznych. Zarówno pacjenci jak i lekarze powinni zaznajomić się z przełomowymi
       odkryciami OZO.
+  unsupportedVideo:
+    en: Your browser does not support the video tag. You can download the video nyway.
+    pl: Twoja przeglądarka nie obsługuje tego wideo. Możesz je pobrać.
 
 header:
   suptitle:

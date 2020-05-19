@@ -1,10 +1,11 @@
 .section-introduction {
   padding-bottom: 4rem;
 
-  img.pcc-animation {
+  .pcc-animation {
     max-width: 16rem;
     @include media-breakpoint-only(xs) {
       max-width: 60%;
+      max-height: 60%;
     }
 
     float: right;
